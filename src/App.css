@@ -1,0 +1,148 @@
+#main-div {
+  display: flex;
+  position: relative;
+}
+
+#div1 {
+  height: 800px;
+  width: 800px;
+  background-color: rgb(231, 231, 231);
+  position: absolute;
+  z-index: -1;
+}
+
+#div2 {
+  height: 800px;
+  width: 720px;
+  background-image: url("/public/intro-bg.jpg");
+  background-size: cover; /* Optional: makes the image cover the div */
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+
+#div3 {
+  display: flex;
+  width: 1240px;
+  height: 70px;
+  align-items: center;
+  background-color: rgb(27, 27, 27);
+  margin-left: 140px;
+  margin-top: 30px;
+  border: 1px solid rgb(226, 188, 188);
+}
+
+#div3 div {
+  padding: 20px;
+}
+
+#nav1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#nav3,
+#nav4,
+#nav5 {
+  color: rgb(131, 124, 124);
+}
+
+#nav2 {
+  margin-left: 740px;
+  color: white;
+}
+
+#intro {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 390px;
+  font-size: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+#buttonDiv {
+  display: flex;
+  margin-top: 560px;
+  margin-left: 50px;
+}
+
+#buttonDiv button {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#button1 {
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#button1:hover {
+  background-color: hsla(12, 75%, 45%, 1);
+  transition: background-color 0.6s;
+}
+
+#button2 {
+  border: 2px solid black;
+}
+
+#button2:hover {
+  background-color: black;
+  transition: background-color 0.6s;
+  color: white;
+}
+
+#button3 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+  font-weight: bold;
+  border: none;
+}
+
+#dash {
+  margin-left: 90px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+#list {
+  list-style: none;
+}
+
+#about-text{
+  height: 700px;
+  margin-left:100px;
+  margin-top:50px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#about1 {
+  background-image: url("/public/about1.jpg");
+ width:300px;
+ height:300px;
+background-size: cover;
+  margin-top:-500px;
+  margin-left:1000px;
+}
+
+
+#about2 {
+  background-image: url("/public/about2.jpg");
+   width:300px;
+ height:300px;
+ background-size: cover;
+  margin-top:-800px;
+  margin-left:800px;
+
+}
