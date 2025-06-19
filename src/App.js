@@ -188,9 +188,68 @@ function App() {
             </ul>
           </div>
         </div>
-        <div id="section4"></div>
+        <div id="section4">
+            <div>
+          <div
+            style={{
+              fontSize: "190px",
+              fontFamily: "Times Romen",
+              fontWeight: "bold",
+              marginTop: "120px",
+              marginLeft: "70px",
+              color: "#d4d6d4",
+              zIndex: "-1",
+            }}
+          >
+            02
+          </div>
+          <div
+            style={{
+              fontSize: "50px",
+              fontWeight: "bold",
+              marginTop: "-140px",
+              zIndex: "1",
+              marginLeft: "100px",
+              fontFamily: "Times Romen",
+            }}
+          >
+           Selected Works.
+          </div>
+        </div>
 
-        <div></div>
+<div id="sec2">
+        <div id="grid-1" class="grid">
+          <div class="grid-item" id="grid1-1"><span class="hover-text"><h4>White Knit Cap</h4><span class="sub-text">Frontend design</span></span></div>
+          <div class="grid-item" id="grid1-2"><span class="hover-text"><h4>WoodCraft</h4><span class="sub-text">Product Design</span></span></div>
+        </div>
+
+           <div id="grid-2" class="grid">
+          <div class="grid-item" id="grid2-1"><span class="hover-text"><h4>Caffiene & Tulip</h4><span class="sub-text">Brand Identity</span></span></div>
+          <div class="grid-item" id="grid2-2"><span class="hover-text"><h4>Grayscale</h4><span class="sub-text">Product Design</span></span></div>
+        </div>
+
+           <div id="grid-3" class="grid">
+          <div class="grid-item" id="grid3-1"><span class="hover-text"><h4>The Lamp</h4><span class="sub-text">Brand Identity</span></span></div>
+          <div class="grid-item" id="grid3-2"><span class="hover-text"><h4>Tropical</h4><span class="sub-text">Frontend design</span></span></div>
+        </div>
+</div>
+        </div>
+
+        <div id="section5">
+           <div><h1 id="clients-label">Hear it from My Happy Clients</h1></div>
+           <div id="client-review">
+            <div>
+            </div>
+            <div></div>
+            <div></div>
+           </div>
+        </div>
+         <div id="section6">
+          
+        </div>
+         <div id="section7">
+          
+        </div>
       </section>
     </>
   );

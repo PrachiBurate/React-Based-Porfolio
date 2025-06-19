@@ -232,5 +232,113 @@ li {
 #section4 {
   background-color: rgb(255, 255, 255);
   width: auto;
-  height: 300px;
+  height: 2500px;
+}
+
+.grid{
+display: flex;
+}
+.grid-item {
+  width: 1000px;
+  height: 700px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  transition: background-color 0.6s ease-in-out;
+  color: white;
+}
+
+.hover-text {
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  text-align: center;
+  z-index: 1;
+    line-height: 3px;
+}
+
+/* Background images */
+#grid1-1 {
+  background-image: url("/public/section1.jpg");
+}
+
+#grid1-2 {
+  background-image: url("/public/section2.jpg");
+}
+
+#grid2-1 {
+  background-image: url("/public/section3.jpg");
+}
+
+#grid2-2 {
+  background-image: url("/public/section4.jpg");
+}
+
+#grid3-1 {
+  background-image: url("/public/section5.jpg");
+}
+
+#grid3-2 {
+  background-image: url("/public/section6.jpg");
+}
+
+/* Hover Effect */
+#grid1-1:hover,
+#grid1-2:hover,
+#grid2-1:hover,
+#grid2-2:hover,
+#grid3-1:hover,
+#grid3-2:hover {
+  background-image: none;
+  background-color: black;
+}
+
+#grid1-1:hover .hover-text,
+#grid1-2:hover .hover-text,
+#grid2-1:hover .hover-text,
+#grid2-2:hover .hover-text,
+#grid3-1:hover .hover-text,
+#grid3-2:hover .hover-text {
+  opacity: 1;
+}
+
+#sec2{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 140px;
+}
+
+.sub-text{
+  font-size: 15px;
+  color: rgb(93, 118, 118);
+}
+
+#section5 {
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  height: 600px;
+}
+
+#section6 {
+  background-color: rgb(235, 220, 220);
+  width: auto;
+  height: 600px;
+}
+
+#section7 {
+  background-color: rgb(40, 38, 38);
+  width: auto;
+  height: 600px;
+}
+
+#clients-label{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 40px;
+}
+
+#client-review{
+  display: flex;
 }
